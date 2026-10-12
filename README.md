@@ -9,7 +9,7 @@ No cloud. No AI. No runtime dependency. No silent deletion.
 ## Quick start
 
 ```powershell
-npm install --save-dev workflowfold
+npm install --save-dev github:juwonllee2024-dotcom/workflowfold
 
 # Put source workflows anywhere below this directory:
 # .github/workflow-src/services/api/ci.yml
