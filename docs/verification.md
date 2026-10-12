@@ -24,4 +24,8 @@ Observed result: two generated flat workflows and a manifest mapping each source
 npm exec --yes --package=./workflowfold-0.1.0.tgz -- workflowfold list --root examples/project --json
 ```
 
-Remote CI and release URLs are added after the public repository is pushed.
+Remote verification:
+
+- CI matrix run: https://github.com/juwonllee2024-dotcom/workflowfold/actions/runs/38297092320 — completed successfully for Node 18/20/22.
+- Public release: https://github.com/juwonllee2024-dotcom/workflowfold/releases/tag/v0.1.0.
+- Release asset digest: GitHub reports `sha256:8f37f73f8d9bf35ede40442d1eb9fe10ff3e6c4413c0dfd92b7f7171929ec63d` for `workflowfold-0.1.0.tgz`.
