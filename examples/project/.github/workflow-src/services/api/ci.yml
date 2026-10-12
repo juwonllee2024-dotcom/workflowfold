@@ -1,0 +1,19 @@
+name: API CI
+
+on:
+  push:
+    paths:
+      - "services/api/**"
+  pull_request:
+    paths:
+      - "services/api/**"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "replace with the API test command"

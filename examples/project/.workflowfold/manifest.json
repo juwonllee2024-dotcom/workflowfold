@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "generatedBy": "workflowfold",
+  "entries": [
+    {
+      "source": ".github/workflow-src/services/api/ci.yml",
+      "destination": ".github/workflows/services-api-ci.yml",
+      "sha256": "a5f19cc5ca11a680c5697459dc3dd7f2ec837b48be24ce2500db5bcd8c3bb515"
+    },
+    {
+      "source": ".github/workflow-src/services/web/ci.yml",
+      "destination": ".github/workflows/services-web-ci.yml",
+      "sha256": "2137190fc559c2b7f48dfa8f9599b0fd12ce7faa918782cadf432a883aaac5a6"
+    }
+  ]
+}
